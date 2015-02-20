@@ -1,0 +1,15 @@
+.fa-quote-left, .fa-quote-right {
+	color: red;
+}
+
+.fa-quote-right {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+.testimonials {
+	background-color: lightblue;
+}

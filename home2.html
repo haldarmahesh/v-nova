@@ -13,16 +13,6 @@
 <body>
   <section class="container">
     <header>
-     <!--  <div class="onclick-menu" tabindex="0">
-        <ul class="onclick-menu-content">
-          <li>menu1</li>
-          <li>menu1</li>
-          <li>menu1</li>
-          <li>menu1</li>
-
-        </ul>
-
-      </div> -->
       <div class="row">
         <div class="col-md-1">
           <img src="logo.png">
@@ -31,7 +21,7 @@
           <button type="button">LOGIN</button>
           <i class="fa fa-bars fa-2x pull-right onclick-menu" tabindex="0">
             <ul class="onclick-menu-content">
-          <li>menu1</li>
+          <li><a href="#aboutus">menu1</a></li>
           <li>menu1</li>
           <li>menu1</li>
           <li>menu1</li>
@@ -55,7 +45,18 @@
       </div>
     </header>
   </section>
-  <section class="container">
+  <section class="ticker">
+    <marquee onmouseover="this.stop()" onmouseout="this.start()">
+    <ul>
+      <li><a href="#">Item1</a></li>
+      <li><a href="#">Item2</a></li>
+      <li><a href="#">Item3</a></li>
+      <li><a href="#">Item4</a></li>
+
+    </ul>
+    </marquee>
+  </section>
+  <section class="container" id="aboutus">
     <h1>About</h1>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

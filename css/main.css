@@ -1,23 +1,42 @@
 .fa-quote-left, .fa-quote-right {
-	color: red;
+  color: red;
 }
-
 .fa-quote-right {
-	float: right;
+  float: right;
 }
-
 li {
-	list-style: none;
+  list-style: none;
 }
-
 .testimonials {
-	background-color: lightblue;
+  background-color: lightblue;
 }
-
 footer {
-	background-color: lightblue;
+  background-color: lightblue;
 }
-
 header {
-	margin-top: 2%;
+  margin-top: 2%;
+}
+.onclick-menu {
+  position: relative;
+  display: inline-block;
+}
+.onclick-menu:focus {
+  
+  pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+  
+  opacity: 1;
+  visibility: visible;
+  
+  pointer-events: auto;
+}
+.onclick-menu-content {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s;
 }
